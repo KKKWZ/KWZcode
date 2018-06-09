@@ -1,0 +1,191 @@
+一、重定向
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta http-equiv="Refresh" content="5;url=http://www.w3school.com.cn" />
+</head>
+
+<body>
+<p>
+对不起。我们已经搬家了。您的 URL 是 <a href="http://www.w3school.com.cn">http://www.w3school.com.cn</a>
+</p>
+
+<p>您将在 5 秒内被重定向到新的地址。</p>
+
+<p>如果超过 5 秒后您仍然看到本消息，请点击上面的链接。</p>
+
+</body>
+</html>
+
+二、一个target，所有的链接
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta http-equiv="Content-Language" content="zh-cn" />
+
+<base target="_blank" />
+</head>
+
+<body>
+
+<p>
+<a href="http://www.w3school.com.cn" target="_blank">这个连接</a> 将在新窗口中加载，因为 target 属性被设置为 "_blank"。
+</p>
+
+<p>
+<a href="http://www.w3school.com.cn">这个连接</a> 也将在新窗口中加载，即使没有 target 属性。
+</p>
+
+</body>
+</html>
+
+三、没有划线的链接
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta http-equiv="Content-Language" content="zh-cn" />
+</head>
+
+<body>
+
+<a href="/example/html/lastpage.html" style="text-decoration:none">
+这是一个链接！
+</a>
+
+</body>
+</html>
+
+四、带有单选按钮的表单
+<!DOCTYPE html>
+<html>
+<body>
+
+<form>
+<input type="radio" name="sex" value="male" checked>Male
+<br>
+<input type="radio" name="sex" value="female">Female
+</form> 
+
+</body>
+</html>
+
+五、带有复选框的表单（新网址无法打开）
+<html>
+
+<body>
+
+<form name="input" action="/html/html_form_action.asp" method="get">
+I have a bike:
+<input type="checkbox" name="vehicle" value="Bike" checked="checked" />
+<br />
+I have a car: 
+<input type="checkbox" name="vehicle" value="Car" />
+<br />
+I have an airplane: 
+<input type="checkbox" name="vehicle" value="Airplane" />
+<br /><br />
+<input type="submit" value="Submit" />
+</form> 
+
+<p>如果您点击 "Submit" 按钮，您将把输入传送到名为 html_form_action.asp 的新页面。</p>
+
+</body>
+</html>
+带有输入框和确认按钮的表单（新网址无法打开）
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="/demo/demo_form.asp">
+First name:<br>
+<input type="text" name="firstname" value="Mickey">
+<br>
+Last name:<br>
+<input type="text" name="lastname" value="Mouse">
+<br><br>
+<input type="submit" value="Submit">
+</form> 
+
+<p>如果您点击提交，表单数据会被发送到名为 demo_form.asp 的页面。</p>
+
+</body>
+</html>
+
+六、跨行或跨列的表格单元格
+<html>
+
+<body>
+
+<h4>横跨两列的单元格：</h4>
+<table border="1">
+<tr>
+  <th>姓名</th>
+  <th colspan="2">电话</th>
+</tr>
+<tr>
+  <td>Phil Coulson</td>
+  <td>555 77 854</td>
+  <td>555 77 855</td>
+</tr>
+</table>
+
+<h4>横跨两行的单元格：</h4>
+<table border="1">
+<tr>
+  <th>姓名</th>
+  <td>Phil Coulson</td>
+</tr>
+<tr>
+  <th rowspan="2">电话</th>
+  <td>555 77 854</td>
+</tr>
+<tr>
+  <td>555 77 855</td>
+</tr>
+</table>
+
+</body>
+</html>
+
+七、HTML的框架问题
+1.垂直框架
+<html>
+
+<frameset cols="25%,50%,25%">
+
+  <frame src="/example/html/frame_a.html">
+  <frame src="/example/html/frame_b.html">
+  <frame src="/example/html/frame_c.html">
+
+</frameset>
+
+</html>
+2.水平框架
+<html>
+
+<frameset rows="25%,50%,25%">
+
+  <frame src="/example/html/frame_a.html">
+  <frame src="/example/html/frame_b.html">
+  <frame src="/example/html/frame_c.html">
+
+</frameset>
+
+</html>
+3.混合框架结构
+<html>
+
+<frameset rows="50%,50%">
+
+<frame src="/example/html/frame_a.html">
+
+<frameset cols="25%,75%">
+<frame src="/example/html/frame_b.html">
+<frame src="/example/html/frame_c.html">
+</frameset>
+
+</frameset>
+
+</html>
