@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+body {background-color:#F0F8FF}
+body,ul{margin:0;}
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}  
+li
+{
+float: left;
+font-size: 17px;
+}
+a:link,a:visited
+{
+    display: block;
+    width: 270px;
+    font-weight: bold;
+    color:#FFFFFF;
+    background-color:rgb(252, 95, 192);
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+a:hover,a:active
+{
+    background-color: rgb(236, 68, 180);
+}
+</style>
+    <title>KKK的爱豆们</title>
+	<link rel="shortcut icon" href="heart.ico">
+    <link rel="bookmark" href="heart.ico">
+</head>
+
+<body>
+<ul>
+    <li><a href="#首页">首页</a></li>
+    <li><a href="#下载">下载APP</a></li>
+    <li><a href="#活动">活动</a></li>
+    <li><a href="#登录">登录</a></li>
+</ul>
+</body>	
+</html>
