@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="utf-8">
 <style type="text/css">
 body {background-color:#F0F8FF}
 body,ul{margin:0;}
@@ -24,7 +25,7 @@ a:link,a:visited
     color:#FFFFFF;
     background-color:rgb(252, 95, 192);
     text-align: center;
-    padding: 20px;
+    padding:20px;
     text-decoration: none;
     text-transform: uppercase;
 
@@ -33,9 +34,10 @@ a:hover,a:active
 {
     background-color: rgb(236, 68, 180);
 }
+.footer{ height:300px; position:absolute; bottom:0px; background:rgb(253, 235, 239);width:100%; clear:both;}
 </style>
     <title>KKK的爱豆们</title>
-    <link rel="shortcut icon" href="heart.ico">
+	<link rel="shortcut icon" href="heart.ico">
     <link rel="bookmark" href="heart.ico">
 </head>
 
@@ -46,5 +48,13 @@ a:hover,a:active
     <li><a href="#活动">活动</a></li>
     <li><a href="#登录">登录</a></li>
 </ul>
+
+<footer class="footer">
+    <div class="follow-pt">
+        <p class="follow-if" style=" padding-left:270px;line-height:100px; "><span style="font-size:20px; color:#F04C74">关注我们</span></p>
+    </div>
+    
+</footer> 
+
 </body>	
 </html>
