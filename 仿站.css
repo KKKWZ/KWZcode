@@ -1,0 +1,151 @@
+body {background-color:#F0F8FF;}
+.d1
+{
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(252, 95, 192);
+}  
+li{
+    display: inline-block;
+    
+}
+
+li a
+{
+    
+    display: block;
+    color:#FFFFFF;
+    font-size: 17px;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+    font-weight: 100;
+    
+}
+li a:hover,li a:active
+{
+    background-color: rgb(236, 68, 180);
+}
+
+
+.search {padding: 30px 0;}
+form {
+    position: relative;
+    width: 650px;
+    margin: 0 auto;
+    
+}
+
+input, button {
+    border: none;
+    outline: none;
+}
+
+input {
+    width: 100%;
+    height: 42px;
+    padding-left: 13px;
+}
+
+button {
+    height: 42px;
+    width: 42px;
+    cursor: pointer;
+    position: absolute;
+}
+/*搜索框*/
+
+.bar input {
+    border: 2px solid #EA5085;/*底框*/
+    width: 600px;
+    border-radius: 5px;
+    background: transparent;
+    float: right;
+    transition: .3s linear;
+    background-image: url(search.ico);
+    background-repeat: no-repeat;
+    background-size: 35px;/*放大镜图片大小*/
+    background-position:5px center;/*放大镜图片位置*/
+    padding:0 0 0 60px;
+}
+.bar button {
+    background:#EA5085;
+    border-radius: 0 5px 5px 0;
+    width: 60px;
+    top: 0px;
+    right: 0;
+}
+.bar button:before {
+    content: "搜索";
+    
+    font-size: 20px;
+    color:white;
+}
+.bar input:focus{
+    border-color: rgb(184, 75, 75);
+    width: 700px;
+}
+
+
+a.one:hover {text-decoration: underline;color: rgb(252, 110, 245);}
+.picture{
+	
+	width: 100%;
+	height: 20px;
+}
+
+.img {
+    border: 1px solid #ccc;
+    
+}
+
+.img:hover {
+    border: 1px solid #777;
+    
+}
+
+.img img {
+    width: 70%;
+    height: 70%;
+    border-radius:70%;
+    text-align: center;
+    
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
