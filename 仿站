@@ -2,151 +2,40 @@
 <html>
 <head>
 <meta charset="utf-8">
-
+<link rel="stylesheet" type="text/css" href="仿站.css">
 
 
 <title>KKK的爱豆们</title>
 <link rel="shortcut icon" href="heart.ico">
 <link rel="bookmark" href="heart.ico">
 
-<style type="text/css">
-body {background-color:#F0F8FF}
-ul
-{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:rgb(252, 95, 192);
-}  
-li
-{
-float: left;
-}
-li a
-{
-    display: block;
-    color:#FFFFFF;
-    font-size: 17px;
-    text-align: center;
-    padding:14px 16px;
-    text-decoration: none;
-    font-weight: 100;
-
-}
-li a:hover,li a:active
-{
-    background-color: rgb(236, 68, 180);
-}
-
-#box{
-    width: 700px;
-    margin: 40px auto; /*距离上方位置*/
-    font-family: 'Microsoft YaHei';
-    font-size: 20px;/*搜索大小*/
-}
-input{
-    width: 550px;/*搜索框宽度*/
-    border: 1px solid #e2e2e2;/*灰色底框大小*/
-    height: 40px;/*搜索框高度*/
-    float: left;
-    background-image: url(search.ico);
-    background-repeat: no-repeat;
-    background-size: 35px;/*放大镜图片大小*/
-    background-position:5px center;/*放大镜图片位置*/
-    padding:0 0 0 60px;
-}
-#search{
-    width: 88px;/*搜索宽度*/
-    height: 42px;/*搜索高度*/
-    float: right;
-    background:#EA5085;
-    color: white;
-    text-align: center;
-    line-height: 38px;
-    cursor: pointer;
-}
-
-a.one:hover {text-decoration: underline;color: rgb(252, 110, 245);}
-
-div.img {
-    border: 1px solid #ccc;
-    
-}
-
-div.img:hover {
-    border: 1px solid #777;
-    
-}
-
-div.img img {
-    width: 70%;
-    height: 70%;
-    border-radius:70%;
-    text-align: center;
-    
-}
-
-div.desc {
-    padding: 15px;
-    text-align: center;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-.responsive {
-    padding: 0 6px;
-    float: left;
-    width: 24.99999%;
-
-}
-
-@media only screen and (max-width: 700px){
-    .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
-    }
-}
-
-@media only screen and (max-width: 500px){
-    .responsive {
-        width: 100%;
-    }
-}
-
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-
-</style>
-
 </head>
 
+
 <body>
-    
-    <ul>
-        <li><a href="#首页">首页</a></li>
-        <li><a href="https://idol001.com/app.html" target="_blank">下载APP</a></li>
-        <li><a href="https://activity.idol001.com/">活动</a></li>
+  <div class="daohanglan">
+    <div class="daohanglan1">
+    <ul class="d1">
+        <li style="float:left"><a href="#首页">首页</a></li>
+        <li style="float:left"><a href="https://idol001.com/app.html" target="_blank">下载APP</a></li>
+        <li style="float:left"><a href="https://activity.idol001.com/">活动</a></li>
         <li style="float:right"><a class="one" href="https://idol001.com/" target="_blank">登录</a></li>
         <li style="float:right"><a class="one" href="https://idol001.com/" target="_blank">注册</a></li>
     
         
     </ul>
+    </div>
+  </div>
 
-<div id="box">
-    <input type="text" name="search" placeholder="请输入关键字">
-    <div id="search">搜索</div> 
+  
+<div class="search bar">  
+  <form>
+    <input type="text" placeholder="请输入您要搜索的内容...">
+    <button type="submit"></button>
+  </form>
 </div>
 
-
-
- 
+<div class="picture">
   <h2 style="text-align:center">热门明星</h2>
 
 
@@ -270,7 +159,7 @@ div.desc {
 
 <div style="padding:6px;">
   
-  <h4>重置浏览器大小查看效果</h4>
+  </div>
 </div>
 
 </body>	
