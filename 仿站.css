@@ -1,4 +1,6 @@
 body {background-color:#F0F8FF;}
+h2{color: rgb(226, 72, 72);}
+/*导航栏*/
 .d1
 {
     
@@ -8,12 +10,12 @@ body {background-color:#F0F8FF;}
     overflow: hidden;
     background-color:rgb(252, 95, 192);
 }  
-li{
+.d1 li{
     display: inline-block;
     
 }
 
-li a
+.d1 li a
 {
     
     display: block;
@@ -22,15 +24,17 @@ li a
     text-align: center;
     padding:14px 16px;
     text-decoration: none;
-    font-weight: 100;
+    font-weight: normal;
     
 }
-li a:hover,li a:active
+.d1 li a:hover,li a:active
 {
     background-color: rgb(236, 68, 180);
 }
+.d1 li a.one:hover {text-decoration: underline;color: rgb(252, 110, 245);}
+/*导航栏结束*/
 
-
+/*搜索框*/
 .search {padding: 30px 0;}
 form {
     position: relative;
@@ -56,7 +60,7 @@ button {
     cursor: pointer;
     position: absolute;
 }
-/*搜索框*/
+
 
 .bar input {
     border: 2px solid #EA5085;/*底框*/
@@ -88,17 +92,20 @@ button {
     border-color: rgb(184, 75, 75);
     width: 700px;
 }
+/*搜索框结束*/
 
-
-a.one:hover {text-decoration: underline;color: rgb(252, 110, 245);}
+/*图片廊*/
 .picture{
-	
+    margin-top: 50px;
 	width: 100%;
-	height: 20px;
+	height: auto;
 }
 
 .img {
     border: 1px solid #ccc;
+    margin: 3px 1px;
+    vertical-align: middle;
+    text-align: center;
     
 }
 
@@ -108,26 +115,30 @@ a.one:hover {text-decoration: underline;color: rgb(252, 110, 245);}
 }
 
 .img img {
-    width: 70%;
-    height: 70%;
+    width: 85%;
+    height: 85%;
     border-radius:70%;
     text-align: center;
-    
+    line-height: 85%;
 }
 
 .desc {
     padding: 15px;
     text-align: center;
+    color: rgb(97, 96, 96);
 }
+
+
 
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 .responsive {
     padding: 0 6px;
     float: left;
-    width: 24.99999%;
+    width: 20%;
 
 }
 
@@ -148,4 +159,57 @@ a.one:hover {text-decoration: underline;color: rgb(252, 110, 245);}
     content: "";
     display: table;
     clear: both;
+}
+/*图片廊结束*/
+
+/*2048*/
+
+.game {
+	width: 600px;
+	height: auto;
+    margin-top: 30px;
+	background-image: linear-gradient(to right,#F1AAA6 0,rgb(243, 144, 139) 100%);
+}
+
+.gamestar{
+    width: 600px;
+    height: 600px;
+    margin-top: 0;
+    position: relative;
+    float: left;
+    
+    
+}
+
+
+.gamestar ul{
+	border:1px solid #ff5000;
+	border-top: none;
+	padding-top: 3px;
+	padding-bottom: 3px;
+    
+    color: rgb(150, 12, 60);
+    list-style-type: none;
+    
+    
+}
+.gamestar ul li{
+	height: 52px;
+	width: 245px;
+	text-align: center;
+    line-height: 52px;
+	font-weight: normal;
+	padding-left: 25px;
+    padding-right: 25px;
+    display: inline-block;
+    
+}
+.gamestar ul li a{
+    color: black;
+    
+    font-size: 20px;
+}
+.gamestar ul li:hover{
+	background-color: rgb(248, 156, 113);
+	
 }
