@@ -36,7 +36,7 @@
 </div>
 
 <div class="picture">
-  <h2 style="text-align:center">热门明星</h2>
+  <h2 style="text-align:center">热门明星</br>&#9825&#10084&#10084&#10084&#9825</h2>
 
 
 
@@ -152,6 +152,14 @@
     </div>
   </div>
 
+  <div class="responsive">
+      <div class="img">
+        <a target="_blank" href="https://idol001.com/app.html#md4">
+          <img src="更多.png" alt="无法显示图片" width="600" height="400">
+        </a>
+        <div class="desc">更多</div>
+      </div>
+    </div>
 
 
 
@@ -161,6 +169,34 @@
   
   </div>
 </div>
+
+<div class="game">
+  
+  <h2 style="text-align:center">Game2048</h2>
+  <div class="gamestar">   
+      <ul>
+        <li>
+          <a target="_blank" href="https://2048.malash.net/153ed1c17d9b659c">全圆佑</a>&nbsp;&#10148;
+          </li>
+        <li>
+          <a href="#">白敬亭</a> &nbsp;&#10148;
+          </li>
+        <li>
+            <a href="#">刘昊然</a> &nbsp;&#10148;
+          </li>
+        <li>
+            <a href="#">刘昊然</a> &nbsp;&#10148;
+          </li>
+        <li>
+            <a href="#">刘昊然</a> &nbsp;&#10148;
+          </li>
+      </ul>
+    </div>
+    
+
+</div>
+
+
 
 </body>	
 </html>
