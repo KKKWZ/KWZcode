@@ -13,6 +13,7 @@
 
 
 <body>
+    
   <div class="daohanglan">
     <div class="daohanglan1">
     <ul class="d1">
@@ -196,7 +197,92 @@
 
 </div>
 
+<section class="activity">
+  <div class="at">
+    <h1 class="tit-at">详细的偶像行程<span class="ico-md"></span></h1>
+    <div class="route">
+      <ul class="in-route">
+        <li class="route-down route-mutil route-it1">
+          <a>
+            <div class="route-detail">
+              <img src="Got7.jpg" alt="Got7" class="route-pic" />
+              <p class="route-time">2014年11月28日</p>
+              <p class="route-star">Got7</p>
+              <p class="route-if">音乐银行</p>
+          </div>
+          <span class="arrow"></span>
+          <span class="btn-schedule"></span>
+          </a>
+        </li>
+        <li class="route-up route-single route-it2 ">
+          <a >
+              <div class="route-detail">
+                  <img src="https://img.idol001.com/middle/2017/12/26/887bd1805a38409a4516aea5dd8c5da01514258815.jpg" alt="EXO" class="route-pic" />
+                  <p class="route-time">2014年12月3日</p>
+                  <p class="route-star">EXO</p>
+                  <p class="route-if">mama颁奖典礼</p>
+              </div>
+              <span class="arrow"></span>
+              <span class="btn-play"></span>
+          </a>
 
+      </li>
+      <li class="route-up route-mutil route-it3 ">
+        <a >
+            <div class="route-detail">
+                <img src="https://img.idol001.com/middle/2018/03/06/5654c6acd0da101028fd3f5a21d7c1d21520317257.png" alt="李钟硕" class="route-pic" />
+                <p class="route-time">2014年12月31日</p>
+                <p class="route-star">李钟硕</p>
+                <p class="route-if">SBS演艺大赏</p>
+            </div>
+            <span class="arrow"></span>
+            <span class="btn-play"></span>
+        </a>
+
+    </li>
+    <li class="route-down route-single route-it4">
+        <a >
+            <div class="route-detail">
+                <img src="https://img.idol001.com/middle/2017/08/04/d39452d9827930873adaa2a470e0ef931501829046.jpg" alt="少女时代" class="route-pic" />
+                <p class="route-time">2015年1月15日</p>
+                <p class="route-star">少女时代</p>
+                <p class="route-if">第29届金唱片</p>
+            </div>
+            <span class="arrow"></span>
+            <span class="btn-schedule"></span>
+        </a>
+    </li>
+    <li class="route-up route-single route-it5 ">
+        <a >
+            <div class="route-detail">
+                <img src="https://img.idol001.com/middle/2018/03/28/e647c41af8625e90f6edc2f0ae81b7011522211394.png" alt="super junior" class="route-pic" />
+                <p class="route-time">2015年1月26日</p>
+                <p class="route-star">super junior</p>
+                <p class="route-if">首尔歌谣大赏</p>
+            </div>
+            <span class="arrow"></span>
+            <span class="btn-play"></span>
+        </a>
+    </li>
+    <li class="route-up route-single route-it6 ">
+        <a >
+            <div class="route-detail">
+                <img src="https://img.idol001.com/middle/2017/12/26/887bd1805a38409a4516aea5dd8c5da01514258815.jpg" alt="偶像运动会" class="route-pic" />
+                <p class="route-time">2015年2月19日</p>
+                <p class="route-star">EXO</p>
+                <p class="route-if">偶像运动会</p>
+            </div>
+            <span class="arrow"></span>
+            <span class="btn-play"></span>
+        </a>
+    </li>
+
+      </ul>
+      <div class="line"></div>
+      <a class="ln-more" href="#">下载APP查看更多呦~</a>
+    </div>
+  </div>
+</section>
 
 </body>	
 </html>
