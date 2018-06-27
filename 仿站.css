@@ -173,7 +173,7 @@ button {
 
 .gamestar{
     width: 600px;
-    height: 600px;
+    height: 300px;
     margin-top: 0;
     position: relative;
     float: left;
@@ -206,10 +206,478 @@ button {
 }
 .gamestar ul li a{
     color: black;
-    
+    text-decoration: none;
     font-size: 20px;
 }
 .gamestar ul li:hover{
 	background-color: rgb(248, 156, 113);
 	
+}
+/*2048结束*/
+
+/*行程*/
+.activity{
+    padding-bottom: 60px;
+    margin-top: 360px;
+}
+.at{
+    border-top: 1px solid #d6d6d6;
+    
+        width: 1000px;
+        margin: 0 auto;
+        position: relative;
+    
+}
+.tit-at{
+    padding: 50px 0 24px 0;
+    width: 300px;
+    margin: 0 350px;
+    border-bottom: 1px solid #d6d6d6;
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000;
+    position: relative;
+}
+.ico-md {
+    width: 10px;
+    height: 4px;
+    display: block;
+    background: #000;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    margin-left: -5px;
+}
+.route {
+    height: 770px;
+    position: relative;
+    text-align: center;
+    
+}
+.in-route {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    text-align: left;
+    padding: 0;
+}
+.in-route li {
+    position: absolute;
+}
+
+.route-it1 {
+    left: 84px;
+    margin-top: 50px;
+}
+.route-it2 {
+    left: 136px;
+    margin-bottom: 100px;
+}
+.route-it3 {
+    left: 305px;
+    margin-bottom: -40px;
+}
+.route-it4 {
+    left: 560px;
+    margin-top: 114px;
+}
+.route-it5 {
+    left: 608px;
+    margin-bottom: 82px;
+}
+.route-it6 {
+    left: 803px;
+    margin-bottom: -40px;
+}
+
+.route-single {
+    width: 120px;
+}
+
+.route-up {
+    bottom: 50%;
+}
+.route-mutil {
+    width: 180px;
+}
+
+.route-down {
+    top: 50%;
+}
+.route-it1 .route-detail {
+    -webkit-animation: route-ani4 0.1s ease-out;
+    animation: route-ani4 0.1s ease-out;
+    -webkit-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+    -webkit-animation-delay: 0.7s;
+    animation-delay: 0.7s;
+    opacity: 1;
+}
+.route-it2 .route-detail {
+    -webkit-animation: route-ani4 0.1s ease-out;
+    animation: route-ani4 0.1s ease-out;
+    -webkit-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+    -webkit-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+    opacity: 1;
+}
+.route-it3 .route-detail {
+    -webkit-animation: route-ani4 0.1s ease-out;
+    animation: route-ani4 0.1s ease-out;
+    -webkit-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+    -webkit-animation-delay: 1.7s;
+    animation-delay: 1.7s;
+    opacity: 1;
+}
+.route-it4 .route-detail {
+    -webkit-animation: route-ani4 0.1s ease-out;
+    animation: route-ani4 0.1s ease-out;
+    -webkit-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+    -webkit-animation-delay: 2.2s;
+    animation-delay: 2.2s;
+    opacity: 1;
+}
+.route-it5 .route-detail {
+    -webkit-animation: route-ani4 0.1s ease-out;
+    animation: route-ani4 0.1s ease-out;
+    -webkit-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+    -webkit-animation-delay: 2.7s;
+    animation-delay: 2.7s;
+    opacity: 1;
+}
+.route-it6 .route-detail {
+    -webkit-animation: route-ani4 0.1s ease-out;
+    animation: route-ani4 0.1s ease-out;
+    -webkit-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+    -webkit-animation-delay: 3.2s;
+    animation-delay: 3.2s;
+    opacity: 1;
+}
+.route-up .route-detail {
+    padding: 100px 0 0 14px;
+    position: relative;
+    margin-top: 50px;
+}
+.route-down .route-detail {
+    padding: 0 0 70px 14px;
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.route-detail {
+    border-left: 1px solid #B2B2B2;
+}
+.route-down .route-pic {
+    bottom: -20px;
+    top: auto;
+}
+
+.route-it1 .route-pic, .route-it1 .route-time, .route-it1 .route-if, .route-it1 .route-star {
+    -webkit-animation: route-ani3 0.1s ease-out;
+    animation: route-ani3 0.1s ease-out;
+    -webkit-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+    -webkit-animation-delay: 0.9s;
+    animation-delay: 0.9s;
+    opacity: 1;
+}
+
+.route-it2 .route-pic, .route-it2 .route-time, .route-it2 .route-if, .route-it2 .route-star {
+    -webkit-animation: route-ani3 0.1s ease-out;
+    animation: route-ani3 0.1s ease-out;
+    -webkit-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+    -webkit-animation-delay: 1.4s;
+    animation-delay: 1.4s;
+    opacity: 1;
+}
+
+.route-it3 .route-pic, .route-it3 .route-time, .route-it3 .route-if, .route-it3 .route-star {
+    -webkit-animation: route-ani3 0.1s ease-out;
+    animation: route-ani3 0.1s ease-out;
+    -webkit-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+    -webkit-animation-delay: 1.9s;
+    animation-delay: 1.9s;
+    opacity: 1;
+}
+.route-it4 .route-pic, .route-it4 .route-time, .route-it4 .route-if, .route-it4 .route-star {
+    -webkit-animation: route-ani3 0.1s ease-out;
+    animation: route-ani3 0.1s ease-out;
+    -webkit-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+    -webkit-animation-delay: 2.4s;
+    animation-delay: 2.4s;
+    opacity: 1;
+}
+.route-it5 .route-pic, .route-it5 .route-time, .route-it5 .route-if, .route-it5 .route-star {
+    -webkit-animation: route-ani3 0.1s ease-out;
+    animation: route-ani3 0.1s ease-out;
+    -webkit-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+    -webkit-animation-delay: 2.9s;
+    animation-delay: 2.9s;
+    opacity: 1;
+}
+.route-it6 .route-pic, .route-it6 .route-time, .route-it6 .route-if, .route-it6 .route-star {
+    -webkit-animation: route-ani3 0.1s ease-out;
+    animation: route-ani3 0.1s ease-out;
+    -webkit-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+    -webkit-animation-delay: 3.4s;
+    animation-delay: 3.4s;
+    opacity: 1;
+}
+
+.route-pic {
+    width: 86px;
+    height: 86px;
+    border-radius: 100%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+
+.route .arrow {
+    position: absolute;
+    left: -2px;
+    top: 0;
+    background-image: url(1.png);
+    background-position: -286px 0;
+    background-repeat: no-repeat;
+    _background-image: url(calendar-icon.png);
+    width: 5px;
+    height: 197px;
+}
+.route-time {
+    font-size: 18px;
+    color: #000;
+    line-height: 24px;
+    padding: 3px 0;
+}
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.route-star {
+    font-size: 16px;
+    color: #ff488d;
+    line-height: 20px;
+    padding: 3px 0;
+}
+
+
+.route-if {
+    font-size: 16px;
+    color: #000;
+    line-height: 20px;
+    padding: 3px 0;
+    opacity: 0.6;
+}
+
+.route-it1 .route-pic, .route-it1 .route-time, .route-it1 .route-if, .route-it1 .route-star {
+    -webkit-animation: route-ani3 0.1s ease-out;
+    animation: route-ani3 0.1s ease-out;
+    -webkit-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+    -webkit-animation-delay: 0.9s;
+    animation-delay: 0.9s;
+    opacity: 1;
+}
+
+.route-it2 .route-pic, .route-it2 .route-time, .route-it2 .route-if, .route-it2 .route-star {
+    -webkit-animation: route-ani3 0.1s ease-out;
+    animation: route-ani3 0.1s ease-out;
+    -webkit-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+    -webkit-animation-delay: 1.4s;
+    animation-delay: 1.4s;
+    opacity: 1;
+}
+
+.route-it3 .route-pic, .route-it3 .route-time, .route-it3 .route-if, .route-it3 .route-star {
+    -webkit-animation: route-ani3 0.1s ease-out;
+    animation: route-ani3 0.1s ease-out;
+    -webkit-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+    -webkit-animation-delay: 1.9s;
+    animation-delay: 1.9s;
+    opacity: 1;
+}
+.route-it4 .route-pic, .route-it4 .route-time, .route-it4 .route-if, .route-it4 .route-star {
+    -webkit-animation: route-ani3 0.1s ease-out;
+    animation: route-ani3 0.1s ease-out;
+    -webkit-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+    -webkit-animation-delay: 2.4s;
+    animation-delay: 2.4s;
+    opacity: 1;
+}
+.route-it5 .route-pic, .route-it5 .route-time, .route-it5 .route-if, .route-it5 .route-star {
+    -webkit-animation: route-ani3 0.1s ease-out;
+    animation: route-ani3 0.1s ease-out;
+    -webkit-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+    -webkit-animation-delay: 2.9s;
+    animation-delay: 2.9s;
+    opacity: 1;
+}
+.route-it6 .route-pic, .route-it6 .route-time, .route-it6 .route-if, .route-it6 .route-star {
+    -webkit-animation: route-ani3 0.1s ease-out;
+    animation: route-ani3 0.1s ease-out;
+    -webkit-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+    -webkit-animation-delay: 3.4s;
+    animation-delay: 3.4s;
+    opacity: 1;
+}
+.btn-schedule, .btn-play {
+    position: absolute;
+    left: -17px;
+    top: 0;
+    background-image: url(1.png);
+    background-position: -155px -21px;
+    background-repeat: no-repeat;
+    _background-image: url(calendar-icon.png);
+    width: 34px;
+    height: 34px;
+}
+
+.route-down .btn-schedule, .route-down .btn-play {
+    bottom: 10px;
+    top: auto;
+}
+
+.route-up .arrow {
+    top: 42px;
+}
+:root .route-up .arrow {
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+}
+:root .route-down .arrow {
+    -webkit-transform-origin: center top;
+    transform-origin: center top;
+}
+
+
+.route-it1 .arrow {
+    -webkit-animation: route-ani1 0.2s ease-out;
+    animation: route-ani1 0.2s ease-out;
+    -webkit-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    opacity: 1;
+}
+.route-it2 .arrow {
+    -webkit-animation: route-ani1 0.2s ease-out;
+    animation: route-ani1 0.2s ease-out;
+    -webkit-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    opacity: 1;
+}
+.route-it3 .arrow {
+    -webkit-animation: route-ani1 0.2s ease-out;
+    animation: route-ani1 0.2s ease-out;
+    -webkit-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    opacity: 1;
+}
+.route-it4 .arrow {
+    -webkit-animation: route-ani1 0.2s ease-out;
+    animation: route-ani1 0.2s ease-out;
+    -webkit-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+    opacity: 1;
+}
+.route-it5 .arrow {
+    -webkit-animation: route-ani1 0.2s ease-out;
+    animation: route-ani1 0.2s ease-out;
+    -webkit-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    opacity: 1;
+}
+.route-it6 .arrow {
+    -webkit-animation: route-ani1 0.2s ease-out;
+    animation: route-ani1 0.2s ease-out;
+    -webkit-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+    -webkit-animation-delay: 2.5s;
+    animation-delay: 2.5s;
+    opacity: 1;
+}
+.route-single .route-if {
+    width: 120px;
+}
+.route-up .route-detail {
+    padding: 100px 0 0 14px;
+    position: relative;
+    margin-top: 50px;
+}
+
+div {
+    text-align: left;
+}
+.route-it2 [class^="btn-"] {
+    -webkit-animation: route-ani2 0.2s ease-out;
+    animation: route-ani2 0.2s ease-out;
+    -webkit-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+    -webkit-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+    opacity: 1;
+}
+.route-it5 [class^="btn-"] {
+    -webkit-animation: route-ani2 0.2s ease-out;
+    animation: route-ani2 0.2s ease-out;
+    -webkit-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+    -webkit-animation-delay: 2.7s;
+    animation-delay: 2.7s;
+    opacity: 1;
+}
+.route .line {
+    background: url(2.jpg) center top;
+    width: 1000px;
+    height: 237px;
+    position: absolute;
+    left: 0;
+    top: 290px;
+    z-index: 1;
+}
+div {
+    text-align: left;
+}
+.ln-more {
+    color: #000;
+    opacity: 0.6;
+    position: relative;
+    z-index: 3;
+    font-size: 16px;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
 }
