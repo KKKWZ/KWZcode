@@ -1,5 +1,6 @@
 body {background-color:#F0F8FF;}
 h2{color: rgb(226, 72, 72);}
+
 /*导航栏*/
 .d1
 {
@@ -168,15 +169,13 @@ button {
 	width: 600px;
 	height: auto;
     margin-top: 30px;
-	background-image: linear-gradient(to right,#F1AAA6 0,rgb(243, 144, 139) 100%);
+	
 }
 
 .gamestar{
     width: 600px;
     height: 300px;
     margin-top: 0;
-    position: relative;
-    float: left;
     
     
 }
@@ -216,9 +215,15 @@ button {
 /*2048结束*/
 
 /*行程*/
+
+
+
+
+
 .activity{
-    padding-bottom: 60px;
-    margin-top: 360px;
+    padding-bottom: 90px;
+    
+    display: block;
 }
 .at{
     border-top: 1px solid #d6d6d6;
@@ -226,12 +231,13 @@ button {
         width: 1000px;
         margin: 0 auto;
         position: relative;
+        
     
 }
 .tit-at{
     padding: 50px 0 24px 0;
     width: 300px;
-    margin: 0 350px;
+    margin: 0 auto;
     border-bottom: 1px solid #d6d6d6;
     text-align: center;
     font-size: 30px;
@@ -258,7 +264,7 @@ button {
 .in-route {
     position: relative;
     z-index: 2;
-    height: 100%;
+    height: 843px;
     text-align: left;
     padding: 0;
 }
@@ -266,29 +272,33 @@ button {
     position: absolute;
 }
 
+
+.in-route a:hover .route-time { color: #ff488d; }
+
+
 .route-it1 {
-    left: 84px;
-    margin-top: 50px;
+    left: 75px;
+    margin-top: 54px;/*下加*/
 }
 .route-it2 {
     left: 136px;
-    margin-bottom: 100px;
+    margin-bottom: 45px;/*下减*/
 }
 .route-it3 {
     left: 305px;
-    margin-bottom: -40px;
+    margin-bottom: -95px;/*下减*/
 }
 .route-it4 {
-    left: 560px;
-    margin-top: 114px;
+    left: 559px;
+    margin-top: 120px;/*下加*/
 }
 .route-it5 {
     left: 608px;
-    margin-bottom: 82px;
+    margin-bottom: 29px;/*下减*/
 }
 .route-it6 {
     left: 803px;
-    margin-bottom: -40px;
+    margin-bottom: -95px;/*下减*/
 }
 
 .route-single {
@@ -296,7 +306,7 @@ button {
 }
 
 .route-up {
-    bottom: 50%;
+    bottom: 52%;
 }
 .route-mutil {
     width: 180px;
@@ -305,135 +315,28 @@ button {
 .route-down {
     top: 50%;
 }
-.route-it1 .route-detail {
-    -webkit-animation: route-ani4 0.1s ease-out;
-    animation: route-ani4 0.1s ease-out;
-    -webkit-animation-fill-mode: backwards;
-    animation-fill-mode: backwards;
-    -webkit-animation-delay: 0.7s;
-    animation-delay: 0.7s;
-    opacity: 1;
-}
-.route-it2 .route-detail {
-    -webkit-animation: route-ani4 0.1s ease-out;
-    animation: route-ani4 0.1s ease-out;
-    -webkit-animation-fill-mode: backwards;
-    animation-fill-mode: backwards;
-    -webkit-animation-delay: 1.2s;
-    animation-delay: 1.2s;
-    opacity: 1;
-}
-.route-it3 .route-detail {
-    -webkit-animation: route-ani4 0.1s ease-out;
-    animation: route-ani4 0.1s ease-out;
-    -webkit-animation-fill-mode: backwards;
-    animation-fill-mode: backwards;
-    -webkit-animation-delay: 1.7s;
-    animation-delay: 1.7s;
-    opacity: 1;
-}
-.route-it4 .route-detail {
-    -webkit-animation: route-ani4 0.1s ease-out;
-    animation: route-ani4 0.1s ease-out;
-    -webkit-animation-fill-mode: backwards;
-    animation-fill-mode: backwards;
-    -webkit-animation-delay: 2.2s;
-    animation-delay: 2.2s;
-    opacity: 1;
-}
-.route-it5 .route-detail {
-    -webkit-animation: route-ani4 0.1s ease-out;
-    animation: route-ani4 0.1s ease-out;
-    -webkit-animation-fill-mode: backwards;
-    animation-fill-mode: backwards;
-    -webkit-animation-delay: 2.7s;
-    animation-delay: 2.7s;
-    opacity: 1;
-}
-.route-it6 .route-detail {
-    -webkit-animation: route-ani4 0.1s ease-out;
-    animation: route-ani4 0.1s ease-out;
-    -webkit-animation-fill-mode: backwards;
-    animation-fill-mode: backwards;
-    -webkit-animation-delay: 3.2s;
-    animation-delay: 3.2s;
-    opacity: 1;
-}
+
+
 .route-up .route-detail {
     padding: 100px 0 0 14px;
     position: relative;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 .route-down .route-detail {
-    padding: 0 0 70px 14px;
+    padding: 0 0 100px 14px;
     position: relative;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
 }
 
 .route-detail {
     border-left: 1px solid #B2B2B2;
 }
 .route-down .route-pic {
-    bottom: -20px;
+    bottom: -10px;
     top: auto;
 }
 
-.route-it1 .route-pic, .route-it1 .route-time, .route-it1 .route-if, .route-it1 .route-star {
-    -webkit-animation: route-ani3 0.1s ease-out;
-    animation: route-ani3 0.1s ease-out;
-    -webkit-animation-fill-mode: backwards;
-    animation-fill-mode: backwards;
-    -webkit-animation-delay: 0.9s;
-    animation-delay: 0.9s;
-    opacity: 1;
-}
 
-.route-it2 .route-pic, .route-it2 .route-time, .route-it2 .route-if, .route-it2 .route-star {
-    -webkit-animation: route-ani3 0.1s ease-out;
-    animation: route-ani3 0.1s ease-out;
-    -webkit-animation-fill-mode: backwards;
-    animation-fill-mode: backwards;
-    -webkit-animation-delay: 1.4s;
-    animation-delay: 1.4s;
-    opacity: 1;
-}
-
-.route-it3 .route-pic, .route-it3 .route-time, .route-it3 .route-if, .route-it3 .route-star {
-    -webkit-animation: route-ani3 0.1s ease-out;
-    animation: route-ani3 0.1s ease-out;
-    -webkit-animation-fill-mode: backwards;
-    animation-fill-mode: backwards;
-    -webkit-animation-delay: 1.9s;
-    animation-delay: 1.9s;
-    opacity: 1;
-}
-.route-it4 .route-pic, .route-it4 .route-time, .route-it4 .route-if, .route-it4 .route-star {
-    -webkit-animation: route-ani3 0.1s ease-out;
-    animation: route-ani3 0.1s ease-out;
-    -webkit-animation-fill-mode: backwards;
-    animation-fill-mode: backwards;
-    -webkit-animation-delay: 2.4s;
-    animation-delay: 2.4s;
-    opacity: 1;
-}
-.route-it5 .route-pic, .route-it5 .route-time, .route-it5 .route-if, .route-it5 .route-star {
-    -webkit-animation: route-ani3 0.1s ease-out;
-    animation: route-ani3 0.1s ease-out;
-    -webkit-animation-fill-mode: backwards;
-    animation-fill-mode: backwards;
-    -webkit-animation-delay: 2.9s;
-    animation-delay: 2.9s;
-    opacity: 1;
-}
-.route-it6 .route-pic, .route-it6 .route-time, .route-it6 .route-if, .route-it6 .route-star {
-    -webkit-animation: route-ani3 0.1s ease-out;
-    animation: route-ani3 0.1s ease-out;
-    -webkit-animation-fill-mode: backwards;
-    animation-fill-mode: backwards;
-    -webkit-animation-delay: 3.4s;
-    animation-delay: 3.4s;
-    opacity: 1;
-}
 
 .route-pic {
     width: 86px;
@@ -445,6 +348,7 @@ button {
 }
 
 
+
 .route .arrow {
     position: absolute;
     left: -2px;
@@ -452,7 +356,7 @@ button {
     background-image: url(1.png);
     background-position: -286px 0;
     background-repeat: no-repeat;
-    _background-image: url(calendar-icon.png);
+    _background-image: url(../imgs/icon_6.png);
     width: 5px;
     height: 197px;
 }
@@ -464,8 +368,8 @@ button {
 }
 p {
     display: block;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
+    -webkit-margin-before: 0.7em;
+    -webkit-margin-after: 0.7em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
 }
@@ -486,62 +390,10 @@ p {
     opacity: 0.6;
 }
 
-.route-it1 .route-pic, .route-it1 .route-time, .route-it1 .route-if, .route-it1 .route-star {
-    -webkit-animation: route-ani3 0.1s ease-out;
-    animation: route-ani3 0.1s ease-out;
-    -webkit-animation-fill-mode: backwards;
-    animation-fill-mode: backwards;
-    -webkit-animation-delay: 0.9s;
-    animation-delay: 0.9s;
-    opacity: 1;
-}
 
-.route-it2 .route-pic, .route-it2 .route-time, .route-it2 .route-if, .route-it2 .route-star {
-    -webkit-animation: route-ani3 0.1s ease-out;
-    animation: route-ani3 0.1s ease-out;
-    -webkit-animation-fill-mode: backwards;
-    animation-fill-mode: backwards;
-    -webkit-animation-delay: 1.4s;
-    animation-delay: 1.4s;
-    opacity: 1;
-}
 
-.route-it3 .route-pic, .route-it3 .route-time, .route-it3 .route-if, .route-it3 .route-star {
-    -webkit-animation: route-ani3 0.1s ease-out;
-    animation: route-ani3 0.1s ease-out;
-    -webkit-animation-fill-mode: backwards;
-    animation-fill-mode: backwards;
-    -webkit-animation-delay: 1.9s;
-    animation-delay: 1.9s;
-    opacity: 1;
-}
-.route-it4 .route-pic, .route-it4 .route-time, .route-it4 .route-if, .route-it4 .route-star {
-    -webkit-animation: route-ani3 0.1s ease-out;
-    animation: route-ani3 0.1s ease-out;
-    -webkit-animation-fill-mode: backwards;
-    animation-fill-mode: backwards;
-    -webkit-animation-delay: 2.4s;
-    animation-delay: 2.4s;
-    opacity: 1;
-}
-.route-it5 .route-pic, .route-it5 .route-time, .route-it5 .route-if, .route-it5 .route-star {
-    -webkit-animation: route-ani3 0.1s ease-out;
-    animation: route-ani3 0.1s ease-out;
-    -webkit-animation-fill-mode: backwards;
-    animation-fill-mode: backwards;
-    -webkit-animation-delay: 2.9s;
-    animation-delay: 2.9s;
-    opacity: 1;
-}
-.route-it6 .route-pic, .route-it6 .route-time, .route-it6 .route-if, .route-it6 .route-star {
-    -webkit-animation: route-ani3 0.1s ease-out;
-    animation: route-ani3 0.1s ease-out;
-    -webkit-animation-fill-mode: backwards;
-    animation-fill-mode: backwards;
-    -webkit-animation-delay: 3.4s;
-    animation-delay: 3.4s;
-    opacity: 1;
-}
+
+
 .btn-schedule, .btn-play {
     position: absolute;
     left: -17px;
@@ -555,129 +407,66 @@ p {
 }
 
 .route-down .btn-schedule, .route-down .btn-play {
-    bottom: 10px;
+    bottom: -30px;
     top: auto;
 }
 
 .route-up .arrow {
-    top: 42px;
+    top: 40px;
 }
-:root .route-up .arrow {
+.route-up .arrow {
     -webkit-transform-origin: center bottom;
     transform-origin: center bottom;
 }
-:root .route-down .arrow {
-    -webkit-transform-origin: center top;
-    transform-origin: center top;
+
+
+.route-down .arrow {
+    background-position: -291px 0;
+    bottom: 10px;
+    top: auto;
 }
 
 
-.route-it1 .arrow {
-    -webkit-animation: route-ani1 0.2s ease-out;
-    animation: route-ani1 0.2s ease-out;
-    -webkit-animation-fill-mode: backwards;
-    animation-fill-mode: backwards;
-    -webkit-animation-delay: 0s;
-    animation-delay: 0s;
-    opacity: 1;
-}
-.route-it2 .arrow {
-    -webkit-animation: route-ani1 0.2s ease-out;
-    animation: route-ani1 0.2s ease-out;
-    -webkit-animation-fill-mode: backwards;
-    animation-fill-mode: backwards;
-    -webkit-animation-delay: 0.5s;
-    animation-delay: 0.5s;
-    opacity: 1;
-}
-.route-it3 .arrow {
-    -webkit-animation: route-ani1 0.2s ease-out;
-    animation: route-ani1 0.2s ease-out;
-    -webkit-animation-fill-mode: backwards;
-    animation-fill-mode: backwards;
-    -webkit-animation-delay: 1s;
-    animation-delay: 1s;
-    opacity: 1;
-}
-.route-it4 .arrow {
-    -webkit-animation: route-ani1 0.2s ease-out;
-    animation: route-ani1 0.2s ease-out;
-    -webkit-animation-fill-mode: backwards;
-    animation-fill-mode: backwards;
-    -webkit-animation-delay: 1.5s;
-    animation-delay: 1.5s;
-    opacity: 1;
-}
-.route-it5 .arrow {
-    -webkit-animation: route-ani1 0.2s ease-out;
-    animation: route-ani1 0.2s ease-out;
-    -webkit-animation-fill-mode: backwards;
-    animation-fill-mode: backwards;
-    -webkit-animation-delay: 2s;
-    animation-delay: 2s;
-    opacity: 1;
-}
-.route-it6 .arrow {
-    -webkit-animation: route-ani1 0.2s ease-out;
-    animation: route-ani1 0.2s ease-out;
-    -webkit-animation-fill-mode: backwards;
-    animation-fill-mode: backwards;
-    -webkit-animation-delay: 2.5s;
-    animation-delay: 2.5s;
-    opacity: 1;
-}
 .route-single .route-if {
     width: 120px;
 }
-.route-up .route-detail {
-    padding: 100px 0 0 14px;
-    position: relative;
-    margin-top: 50px;
-}
 
-div {
-    text-align: left;
-}
-.route-it2 [class^="btn-"] {
-    -webkit-animation: route-ani2 0.2s ease-out;
-    animation: route-ani2 0.2s ease-out;
-    -webkit-animation-fill-mode: backwards;
-    animation-fill-mode: backwards;
-    -webkit-animation-delay: 1.2s;
-    animation-delay: 1.2s;
-    opacity: 1;
-}
-.route-it5 [class^="btn-"] {
-    -webkit-animation: route-ani2 0.2s ease-out;
-    animation: route-ani2 0.2s ease-out;
-    -webkit-animation-fill-mode: backwards;
-    animation-fill-mode: backwards;
-    -webkit-animation-delay: 2.7s;
-    animation-delay: 2.7s;
-    opacity: 1;
-}
+
+
 .route .line {
     background: url(2.jpg) center top;
     width: 1000px;
     height: 237px;
     position: absolute;
     left: 0;
-    top: 290px;
+    top: 350px;
     z-index: 1;
 }
-div {
-    text-align: left;
-}
+
 .ln-more {
     color: #000;
     opacity: 0.6;
     position: relative;
     z-index: 3;
     font-size: 16px;
+    text-align: center;
+    
 }
-
-
+.ln-more:hover { color: #000; opacity: 1; }
+section{
+    display: block;
+}
 a {
     text-decoration: none;
     color: white;
+    
 }
+
+
+
+.btn-schedule {
+    background-position: -189px -21px;
+    top: auto;
+}
+.route-down.route-single .route-detail { padding-bottom: 60px; }
+.route-down.route-single .route-pic { bottom: -30px; }
