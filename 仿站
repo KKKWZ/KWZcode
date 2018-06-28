@@ -173,7 +173,8 @@
 
 <div class="game">
   
-  <h2 style="text-align:center">Game2048</h2>
+  <h2 style="text-align:center;background-image: linear-gradient(to right,#F1AAA6 0,rgb(243, 144, 139) 100%);">
+    Game2048</h2>
   <div class="gamestar">   
       <ul>
         <li>
@@ -279,9 +280,11 @@
 
       </ul>
       <div class="line"></div>
-      <a class="ln-more" href="#">下载APP查看更多呦~</a>
+      <a class="ln-more" href="https://idol001.com/#">下载APP查看更多呦~</a>
     </div>
+    
   </div>
+  
 </section>
 
 </body>	
